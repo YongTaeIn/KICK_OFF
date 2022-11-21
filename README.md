@@ -10,5 +10,5 @@
 #####  
 #####  3. Device (Raspberry pi)
 #####  4. APP    
-#####  5. Risk Detection (YOLO) 
+#####  5. Risk Detection (YOLOv5) 
 #####  6. Parking Check (Visual localization) 
