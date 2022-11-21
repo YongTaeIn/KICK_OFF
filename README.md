@@ -9,6 +9,9 @@
 ##### 2. WEB
 #####  
 #####  3. Device (Raspberry pi)
+
 #####  4. APP    
+
 #####  5. Risk Detection (YOLOv5) 
+ ③
 #####  6. Parking Check (Visual localization) 
