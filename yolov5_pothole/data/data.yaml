@@ -1,0 +1,11 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 7
+names: ['Longitudinal Cracks',
+        'Transverse Cracks', 
+        'Alligator Cracks', 
+        'Potholes', 
+        'damaged crosswalk', 
+        'Damaged paint', 
+        'Manhole cover']
