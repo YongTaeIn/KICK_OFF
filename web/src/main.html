@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kick_Off</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ce0f52e984f8119e630c1e40d3a83b23"></script>
+</head>
+<body>
+	<header>Kick_Off</header>
+	<div id="content">
+
+		<div id="box"> 
+
+			<nav id="nav">
+				<div class="menu selected">Full Service</div>
+				<div class="menu">User Management</div>
+				<div class="menu">Data Management</div>
+				<div class="menu">User Management</div>
+				<div class="menu">Scooter Management</div>
+				<div class="menu">Security</div>
+				<div class="menu">Questions</div>
+				<div class="menu">Customer Support</div>
+				<div class="menu">Settings</div>
+			</nav>
+
+			<div id="map">
+			<div class="category">
+				<ul>
+					<li id="allMenu" onclick="changeMarker('all')">
+						<span class="ico_comm ico_all"></span>
+						All
+					</li>
+					<li id="potholeMenu" onclick="changeMarker('pothole')">
+						<span class="ico_comm ico_pothole"></span>
+						Pothole
+					</li>
+					<li id="bumpMenu" onclick="changeMarker('bump')">
+						<span class="ico_comm ico_bump"></span>
+						Bump
+					</li>
+					<li id="schoolMenu" onclick="changeMarker('school')">
+						<span class="ico_comm ico_school"></span>
+						School <br>
+						zone
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="right">
+			<div id="statistics">
+				<form id="meter_part">
+					<h3 id="today">Dangerous driving status</h3>
+					<p>sudden stop</p>
+					<meter id="sudden" min="0" max="100" low="30" high="60" optimum="10" value="0"></meter>
+					<span id="sudden_ment">of the total cumulative penalty points</span>
+					<br>
+					<p>Speed on the speed bump</p>
+					<meter id="buff" min="0" max="100" low="30" high="60" optimum="10" value="0"></meter>
+					<span id="buff_ment">of the total cumulative penalty points</span>
+					<br>
+					<p>Speeding in the school zone</p>
+					<meter id="school" min="0" max="100" low="30" high="60" optimum="10" value="0"></meter>
+					<span id="school_ment">of the total cumulative penalty points</span>
+					<br>
+				</form>
+
+				<form id="graph_part">
+					<div class="vGraph">
+						<ul>
+							<li><span class="gTerm">sudden stop</span><span id="sudden_bar" class="gBar" style="height:0%"><span id="sudden_bar_"></span></span></li>
+							<li><span class="gTerm">Speed on the<br>speed bump</span><span id="buff_bar" class="gBar" style="height:0%"><span id="buff_bar_"></span></span></li>
+							<li><span class="gTerm">Speeding in<br>the school zone</span><span id="school_bar" class="gBar" style="height:33%"><span id="school_bar_"></span></span></li>
+							<li><span class="gTerm">All(100%)</span><span id="all_bar" class="gBar" style="height:100%"><span id="all_bar_"></span></span></li>
+						</ul>
+					</div>
+				</form>				
+			</div>
+			<div id="user_info">
+				<div id="my_modal">
+					<img id="user_img" src="../assets/user.png">
+					<table id="table_1" class="user_table_1">
+						<tr>
+							<th>sudden stop</th>
+							<th>Speed on the<br>speed bump</th>
+							<th>Speeding in<br>the school zone</th>
+						</tr>
+						<tr>
+							<td id="sudden_stop">-</td>
+							<td id="buff_speed">-</td>
+							<td id="schoolzone_speed">-</td>
+						</tr>
+					</table>
+					<table id="table_2" class="user_table_1">
+						<tr>
+							<th>rating</th>
+							<th>safety/danger</th>
+						</tr>
+						<tr>
+							<td id="rating">-</td>
+							<td id="safety_danger">-</td>
+						</tr>
+					</table>
+					
+					<table id="table_3" class="user_table_2">
+						<tr>
+							<th>ID</th>
+							<th>name</th>
+							<th>birth year</th>
+							<th>Certificate<br>Acquisition Date</th>
+							<th>driving time(s)</th>
+							<th>rating</th>
+						</tr>
+						<tr>
+							<td id="m_1">-</td>
+							<td id="m_2">-</td>
+							<td id="m_3">-</td>
+							<td id="m_4">-</td>
+							<td id="m_5">-</td>
+							<td id="m_6">-</td>
+						</tr>
+					</table>
+					<a class="modal_close_btn">X</a>
+				</div>
+
+				<table id="table_3" class="users_table">
+					<tr>
+						<th>ID</th>
+						<th>name</th>
+						<th>birth year</th>
+						<th>Acquisition Date</th>
+						<th>driving time(s)</th>
+						<th>rating</th>
+					</tr>
+					<tr id="user_1">
+						<td id="u1_1">-</td>
+						<td id="u1_2">-</td>
+						<td id="u1_3">-</td>
+						<td id="u1_4">-</td>
+						<td id="u1_5">-</td>
+						<td id="u1_6">-</td>
+					</tr>
+					<tr id="user_2">
+						<td id="u2_1">-</td>
+						<td id="u2_2">-</td>
+						<td id="u2_3">-</td>
+						<td id="u2_4">-</td>
+						<td id="u2_5">-</td>
+						<td id="u2_6">-</td>
+					</tr>
+					<tr id="user_3">
+						<td id="u3_1">-</td>
+						<td id="u3_2">-</td>
+						<td id="u3_3">-</td>
+						<td id="u3_4">-</td>
+						<td id="u3_5">-</td>
+						<td id="u3_6">-</td>
+					</tr>
+					<tr id="user_4">
+					<td id="u4_1">-</td>
+					<td id="u4_2">-</td>
+					<td id="u4_3">-</td>
+					<td id="u4_4">-</td>
+					<td id="u4_5">-</td>
+					<td id="u4_6">-</td>
+					</tr>
+					<tr id="user_5">
+						<td id="u5_1">-</td>
+						<td id="u5_2">-</td>
+						<td id="u5_3">-</td>
+						<td id="u5_4">-</td>
+						<td id="u5_5">-</td>
+						<td id="u5_6">-</td>
+					</tr>
+					<tr id="user_6">
+						<td id="u6_1">-</td>
+						<td id="u6_2">-</td>
+						<td id="u6_3">-</td>
+						<td id="u6_4">-</td>
+						<td id="u6_5">-</td>
+						<td id="u6_6">-</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+	
+
+    <script src="./javascripts/main_map.js" defer=""></script>
+	<script src="./javascripts/main_user.js" defer=""></script>
+	<script src="./javascripts/main_nav.js" defer=""></script>
+	<script src="./javascripts/main_statistics.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="../public/user.json" type="text/javascript"></script>
+</body>
+</html>
