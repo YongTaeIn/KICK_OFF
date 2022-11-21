@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/answerborder.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/border.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/map_banner.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/mapborder.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/quizborder.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_logo.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_menu.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_noti.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_notification.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_qrcode.xml" value="0.1005" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_ride.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_search.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/resize_ic_user.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/selector_radio_button.xml" value="0.1535" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/selector_radio_text.xml" value="0.1535" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/stroke.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/drawable/yellowborder.xml" value="0.1195" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_intro.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_license.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_login_register.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_main2.xml" value="0.23731884057971014" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_map.xml" value="0.23731884057971014" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_mqtt.xml" value="0.18333333333333332" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_quiz.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_quiz1.xml" value="0.34739583333333335" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_register_request.xml" value="0.1796875" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_result.xml" value="0.4" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/activity_test_main.xml" value="0.2109375" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/fragment_history.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/fragment_setting.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/layout/fragment_user.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/menu/menu_bottom.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/menu/menu_btm_tap.xml" value="0.24427083333333333" />
+        <entry key="..\:/AndroidStudio/Projects/KickBoard/app/src/main/res/xml/network_security_config.xml" value="0.2015625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

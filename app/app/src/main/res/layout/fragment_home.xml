@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/navermap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+    </com.naver.maps.map.MapView>
+
+    <android.widget.Button
+        android:id="@+id/btn_map_start"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="620dp"
+        android:drawableLeft="@drawable/resize_ic_qrcode"
+        android:paddingLeft="80dp"
+        android:paddingRight="90dp"
+        android:background="@drawable/stroke"
+        android:text="Start Ride"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_map_search"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/mapborder"
+        android:color="#858585"
+        android:drawableLeft="@drawable/resize_ic_search"
+        android:hint="  Search Location"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/et_map_name"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/yuniverseblod"
+        android:gravity="center_horizontal"
+        android:text="Kick_Off"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/navermap"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_map_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/resize_ic_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_map_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="18dp"
+        android:src="@drawable/resize_ic_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

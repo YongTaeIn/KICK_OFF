@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="75dp"
+        android:height="75dp"
+        android:drawable="@drawable/ic_history_ride"
+        />
+</layer-list>

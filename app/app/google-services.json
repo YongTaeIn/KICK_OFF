@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "124787146206",
+    "project_id": "kickboard-8c704",
+    "storage_bucket": "kickboard-8c704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124787146206:android:32ee18106c3abf68e7314f",
+        "android_client_info": {
+          "package_name": "com.aisl.kickboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124787146206-p4ihdnqva8rqgeoiouohldpferb46c6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZnv_RlJWiP6HD_I2I6WjCUY2ETJ78PAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124787146206-p4ihdnqva8rqgeoiouohldpferb46c6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
