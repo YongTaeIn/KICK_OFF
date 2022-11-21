@@ -1,10 +1,10 @@
 # KICK_OFF
 
 ### 1. detect 
-####   - School_zone_detect.py
-####  - Speed_bump_detect.py
-####   - Sudden_stop_detect.py
-####   - Analysis_rating.py
+1) python School_zone_detect.py
+2) pythonSpeed_bump_detect.py
+3) python Sudden_stop_detect.py
+4) python Analysis_rating.py
 
 ### 2. WEB
 1) execute web/src/admin.html
