@@ -2,7 +2,7 @@
 
 ### 1. detect 
 1) python School_zone_detect.py
-2) pythonSpeed_bump_detect.py
+2) python Speed_bump_detect.py
 3) python Sudden_stop_detect.py
 4) python Analysis_rating.py
 
