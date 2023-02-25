@@ -1,4 +1,4 @@
-# KICK_OFF
+# KICK_OFF _킥보드 프로젝트 관련 코드.
 
 ### 1. detect 
 1) python School_zone_detect.py
